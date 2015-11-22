@@ -1,0 +1,18 @@
+extends layout
+
+block content
+	h3 Petición
+	
+	p: pre=params
+	
+	form(action=uri,target="_blank",method="post")
+		table
+			each p, k in fparams
+				tr
+					td=k + ': '
+					td
+						input(name=k,value=fparams[k])
+		
+		br
+		input(type="submit", value="Enviar petición")
+	

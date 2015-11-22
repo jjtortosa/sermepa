@@ -1,0 +1,25 @@
+extends layout
+
+block content
+	h3 Genera Petición
+	
+	form(action="genpet")
+		table
+			tr
+				td Modo: 
+				td
+					label(for="real")  Real
+					input#real(type="radio", name="mode", value="real")
+					label(for="test")  Simulación
+					input#test(type="radio", name="mode", value="test", checked)
+			tr
+				td Comercio: 
+				td
+					input(name="comercio", placeholder="327234688")
+			tr
+				td Clave: 
+				td
+					input(name="clave", size="38", placeholder="sq7HjrUOBfKmC576ILgskD5srU870gJ7")
+		
+		br
+		input(type="submit", value="Generar petición")
