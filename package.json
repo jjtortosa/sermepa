@@ -1,7 +1,7 @@
 {
   "name": "sermepa",
   "description": "Api para redsys SHA256",
-  "version": "1.0.3-alpha.5",
+  "version": "1.0.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/jjtortosa/sermepa.git"
@@ -16,7 +16,7 @@
   "author": "jj",
   "contributors": [],
   "scripts": {
-    "www-test": "node bin/www"
+    "test": "node ./bin/www"
   },
   "main": "lib/api",
   "test": "bin/www",

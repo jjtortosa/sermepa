@@ -20,7 +20,7 @@ npm install sermepa --save
 cd node_modules/sermepa
 $ npm test
 
-Navegar a:
+Go to:
 [http://localhost:3000/](http://localhost:3000/)
 
 ## Usage
@@ -28,19 +28,16 @@ Navegar a:
 
 ## Issues
 
-Temporalmente, ejecuta un script php para el cifrado
-
 
 ## Dependencies
 
-None
+- [debug](https://github.com/visionmedia/debug): small debugging utility
 
 
 ## Dev Dependencies
 
 - [body-parser](https://github.com/expressjs/body-parser): Node.js body parsing middleware
 - [cookie-parser](https://github.com/expressjs/cookie-parser): cookie parsing with signatures
-- [debug](https://github.com/visionmedia/debug): small debugging utility
 - [express](https://github.com/strongloop/express): Fast, unopinionated, minimalist web framework
 - [jade](https://github.com/jadejs/jade): A clean, whitespace-sensitive template language for writing HTML
 - [morgan](https://github.com/expressjs/morgan): http request logger middleware for node.js

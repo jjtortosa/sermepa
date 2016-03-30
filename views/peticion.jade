@@ -9,17 +9,37 @@ block content
 				td Modo: 
 				td
 					label(for="real")  Real
-					input#real(type="radio", name="mode", value="real")
+					input#real(
+						type="radio",
+						name="mode",
+						value="real"
+					)
 					label(for="test")  Simulación
-					input#test(type="radio", name="mode", value="test", checked)
+					input#test(
+						type="radio",
+						name="mode",
+						value="test",
+						checked
+					)
 			tr
 				td Comercio: 
 				td
-					input(name="comercio", placeholder="327234688")
+					input(
+						name="comercio",
+						placeholder="327234688",
+						value="327234688",
+						required
+					)
 			tr
 				td Clave: 
 				td
-					input(name="clave", size="38", placeholder="sq7HjrUOBfKmC576ILgskD5srU870gJ7")
+					input(
+						name="clave",
+						size="38",
+						placeholder="sq7HjrUOBfKmC576ILgskD5srU870gJ7",
+						value="sq7HjrUOBfKmC576ILgskD5srU870gJ7",
+						required
+					)
 		
 		br
 		input(type="submit", value="Generar petición")
