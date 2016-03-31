@@ -28,7 +28,8 @@ module.exports = function(req, res) {
 	res.render('genpet', {
 		uri: uri,
 		params: JSON.stringify(obj.params, null, '\t'),
-		fparams: params
+		fparams: params,
+		title: "Sermepa / redsys"
 	});
 	
 };

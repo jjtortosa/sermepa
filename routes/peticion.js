@@ -1,4 +1,6 @@
 
-module.exports = function(req, res, next) {
-  res.render('peticion');
+module.exports = function(req, res) {
+  res.render('peticion', {
+    title: "Sermepa / redsys"
+  });
 };
